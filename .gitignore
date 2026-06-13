@@ -1,0 +1,22 @@
+# Ignore Terraform local files
+
+# Local TF directories
+.terraform/
+
+# State files (may contain secrets)
+*.tfstate
+*.tfstate.backup
+
+# Crash log and plan files
+crash.log
+*.tfplan
+
+# Override files and local-only configs
+override.tf
+override.tf.json
+
+# Sensitive variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Keep the lock file tracked (recommended): .terraform.lock.hcl
